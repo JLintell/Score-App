@@ -1,0 +1,410 @@
+h1 {
+    size: 48px;
+    margin-left: 50px;
+}
+
+#container {
+    height: 1100px;
+    border: 10px solid red;
+    margin: 50px auto;
+    background-color: black;
+}
+
+#number {
+    height: 25px;
+    width: 250px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 50px;
+    border: 1px solid none;
+    color: white;
+}
+
+#reverseincrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 80px;
+    cursor: pointer;
+    outline: none;
+}
+
+#reversedecrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+    outline: none;
+}
+
+#progressincrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 80px;
+    outline: none;
+}
+
+#progressdecrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    outline: none;
+}
+
+#gateincrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 80px;
+    outline: none;
+}
+
+#gatedecrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    outline: none;
+}
+
+#rolloverincrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 80px;
+    outline: none;
+}
+
+#rolloverdecrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    outline: none;
+}
+
+#boundaryincrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 80px;
+    outline: none;
+}
+
+#boundarydecrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    outline: none;
+}
+
+#touchincrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 80px;
+    outline: none;
+}
+
+#touchdecrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    outline: none;
+}
+
+
+#courseincrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 80px;
+    outline: none;
+}
+
+#coursedecrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    outline: none;
+}
+
+#selfrecoveryincrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 80px;
+    outline: none;
+}
+
+#selfrecoverydecrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    outline: none;
+}
+
+#assistedrecoveryincrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 80px;
+    outline: none;
+}
+
+#assistedrecoverydecrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    outline: none;
+}
+
+#pointoutincrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 80px;
+    outline: none;
+}
+
+#pointoutdecrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    outline: none;
+}
+
+#DNFincrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 80px;
+    outline: none;
+}
+
+#DNFdecrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    outline: none;
+}
+
+#DNSincrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 80px;
+    outline: none;
+}
+
+#DNSdecrement {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    outline: none;
+}
+
+#reset {
+    position: absolute;
+    left: 37vw;
+    top: 28vh;
+    color: transparent;
+    background: transparent;
+    width: 100px;
+    height: 70px;
+    outline: none;
+    border: none;
+}
+
+#progress {
+    position: absolute;
+    left: 6vw;
+    top: 41.5vh;
+    color: white;
+}
+
+#reverse {
+    position: absolute;
+    right: 44vw;
+    top: 23.5vh;
+    color: white;
+}
+
+#gate {
+    position: absolute;
+    left: 6.5vw;
+    top: 60vh;
+    color: white;
+}
+
+#rollover {
+    position: absolute;
+    left: 6.5vw;
+    top: 69.5vh;
+    color: white;
+}
+
+#boundary {
+    position: absolute;
+    left: 6.5vw;
+    top: 78.5vh;
+    color: white;
+}
+
+#touch {
+    position: absolute;
+    left: 6.5vw;
+    top: 88vh;
+    color: white;
+}
+
+#course {
+    position: absolute;
+    left: 6.5vw;
+    top: 97vh;
+    color: white;
+}
+
+#selfrecovery {
+    position: absolute;
+    left: 6.5vw;
+    top: 106vh;
+    color: white;
+}
+
+#assistedrecovery {
+    position: absolute;
+    left: 6.5vw;
+    top: 115.5vh;
+    color: white;
+}
+
+#pointout {
+    position: absolute;
+    left: 6.5vw;
+    top: 124.7vh;
+    color: white;
+}
+
+#DNF {
+    position: absolute;
+    left: 6.5vw;
+    top: 134vh;
+    color: white;
+}
+
+#DNS {
+    position: absolute;
+    left: 6.5vw;
+    top: 143.2vh;
+    color: white;
+}

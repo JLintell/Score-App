@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/settings.css">
+    <title>Settings</title>
+</head>
+<body>
+  <h1>Settings</h1>
+
+  <div class="mainsettings">
+    <h2>Main Settings</h2>
+    <p>Total Gates</p>
+    <p>Progress Points</p>
+
+
+  <p>Reverse</p>  <div class="custom-select" style="width:100px;">
+      <select>
+        <option value="0">Select number:</option>
+        <option value="1">1</option>
+        <option value="2" id="reverseincrement" id="reversedecrement">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+    </div>
+    <p>Progress</p>
+    <p>Gate</p>
+    <p>Rollover</p>
+    <p>Boundary</p>
+    <p>Touch</p>
+    <p>Course</p>
+    <p>(S) Recover</p>
+    <p>(A) Recovery</p> 
+    <p>Point Out</p>
+    <p>DNF</p>
+    <p>DNS</p>
+  </div>
+     
+
+    <h2>Reset</h2>
+    <button onclick="window.location.reload();">Reset to default</button>
+
+        <nav class="nav">
+        <a href="score.html" class="nav__link">
+          <i class="material-icons nav__icon">toys</i>
+          <span class="nav__text">Scale Points</span>
+        </a>
+        <a href="index.html" class="nav__link">
+            <i class="material-icons nav__icon">home</i>
+            <span class="nav__text">Home</span>
+          </a>
+        <a href="#" class="nav__link">
+          <i class="material-icons nav__icon">settings</i>
+          <span class="nav__text">Settings</span>
+        </a>
+      </nav>
+      <script src="javascript/settings.js"></script>
+</body>
+</html>
